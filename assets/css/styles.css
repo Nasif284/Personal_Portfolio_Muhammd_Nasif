@@ -330,6 +330,9 @@ img{
     text-align: center;
     margin-bottom: var(--mb-2-5);
 }
+.about__buttons,.contact_button{
+    text-align: center;
+}
 .about__info{
     display: flex;
     justify-content: space-evenly;
@@ -847,6 +850,13 @@ img{
     .nav__menu{
         padding: 2rem .25rem 4rem;
     }
+    .about__buttons{
+        text-align: center;
+    }
+    /* .home_button,
+    .home__description{
+        text-align: center;
+    } */
     .nav__list{
         column-gap: 0;
     }
